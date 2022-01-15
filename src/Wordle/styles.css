@@ -1,0 +1,49 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(29, 26, 26);
+  color: white;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  width: 500px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  gap: 8px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  border: 2px solid white;
+}
+
+.keyboard {
+  margin-top: 200px;
+  max-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.key {
+  font-size: 20px;
+  height: 40px;
+}
